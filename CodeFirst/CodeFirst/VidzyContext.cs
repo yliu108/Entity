@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
-using System.Collections.ObjectModel;
 namespace CodeFirst
 {
-    class Program
+    public class VidzyContext : DbContext
     {
-       
-        static void Main(string[] args)
+        public DbSet<Video> Videos { set; get; }
+        public DbSet<Genre> Genres { set; get; }
+        public VidzyContext() : base("name=Connection")
         {
+
         }
     }
 }

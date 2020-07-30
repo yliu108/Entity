@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.Entity;
-using System.Collections.ObjectModel;
+
 namespace CodeFirst
 {
-    class Program
+    public enum Classification:byte
     {
-       
-        static void Main(string[] args)
-        {
-        }
+        Silver = 1,
+        Gold = 2,
+        Platinum = 3
     }
+
 }
