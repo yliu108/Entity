@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
+
 namespace CodeFirst
 {
-    public class Genre
+    public class Tag
     {
-        public byte Id { set; get; }
-        public string Name { set; get; }
+        public int Id {  set;get; }
+        public string Name {  set;get; }
         public ICollection<Video> Videos {  set;get; }
-        public Genre()
+
+        public Tag()
         {
             Videos = new Collection<Video>();
         }

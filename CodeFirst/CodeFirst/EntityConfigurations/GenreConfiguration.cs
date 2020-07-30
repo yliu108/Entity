@@ -15,6 +15,7 @@ namespace CodeFirst.EntityConfigurations
             Property(g => g.Name)
                 .IsRequired()
                 .HasMaxLength(255);
+
         }
     }
 }

@@ -12,7 +12,7 @@ namespace CodeFirst
         public DbSet<Genre> Genres { set; get; }
         public VidzyContext() : base("name=Connection")
         {
-
+            
         }
     }
 }

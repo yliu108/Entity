@@ -16,3 +16,4 @@ C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst
 C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.AddGenreToVideosTable.resources
 C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.AddClassificationToVideoTable.resources
 C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.ModifyGenreAndVideoTable.resources
+C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.AddTagTable.resources

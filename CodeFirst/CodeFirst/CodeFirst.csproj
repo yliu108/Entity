@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Classification.cs" />
     <Compile Include="EntityConfigurations\GenreConfiguration.cs" />
+    <Compile Include="EntityConfigurations\TagConfiguration.cs" />
     <Compile Include="EntityConfigurations\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\202007292316478_InitialModel.cs" />
@@ -74,9 +75,14 @@
     <Compile Include="Migrations\202007301555494_ModifyGenreAndVideoTable.Designer.cs">
       <DependentUpon>202007301555494_ModifyGenreAndVideoTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007301710081_AddTagTable.cs" />
+    <Compile Include="Migrations\202007301710081_AddTagTable.Designer.cs">
+      <DependentUpon>202007301710081_AddTagTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
     <Compile Include="Video.cs" />
     <Compile Include="VidzyContext.cs" />
   </ItemGroup>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007301555494_ModifyGenreAndVideoTable.resx">
       <DependentUpon>202007301555494_ModifyGenreAndVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007301710081_AddTagTable.resx">
+      <DependentUpon>202007301710081_AddTagTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
