@@ -58,6 +58,14 @@
     <Compile Include="Migrations\202007300057342_PopulateGenresTable.Designer.cs">
       <DependentUpon>202007300057342_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007300110560_AddGenreToVideosTable.cs" />
+    <Compile Include="Migrations\202007300110560_AddGenreToVideosTable.Designer.cs">
+      <DependentUpon>202007300110560_AddGenreToVideosTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007300114492_AddClassificationToVideoTable.cs" />
+    <Compile Include="Migrations\202007300114492_AddClassificationToVideoTable.Designer.cs">
+      <DependentUpon>202007300114492_AddClassificationToVideoTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +80,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007300057342_PopulateGenresTable.resx">
       <DependentUpon>202007300057342_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007300110560_AddGenreToVideosTable.resx">
+      <DependentUpon>202007300110560_AddGenreToVideosTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007300114492_AddClassificationToVideoTable.resx">
+      <DependentUpon>202007300114492_AddClassificationToVideoTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

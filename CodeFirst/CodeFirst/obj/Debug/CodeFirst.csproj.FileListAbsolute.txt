@@ -13,3 +13,5 @@ C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst
 C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.InitialModel.resources
 C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.GenerateResource.cache
 C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.PopulateGenresTable.resources
+C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.AddGenreToVideosTable.resources
+C:\Users\g6517\Desktop\Entity Git\Entity\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.AddClassificationToVideoTable.resources
